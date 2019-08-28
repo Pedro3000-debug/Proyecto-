@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:focus{
+    outline: none;
+}
+
+body{
+    background: #032558;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.informacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.informacion h1{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d1d1d1;
+}
+
+.informacion .php{
+    font-size: 25px;
+    font-weight: 600;
+    color: #303030;
+    margin-bottom: 30px;
+}
+
+.form_wrap .informacion{
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.205);
+}
+
+.informacion a{
+    display: block;
+    width: 275px;
+    background: #4091ec;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    margin-top: 50px;
+     
+
+    color: rgb(45, 0, 71);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.informacion a:hover{
+    background: #3371B6;
+}
